@@ -18,4 +18,4 @@
 ##### git pull origin main
 ##
 ## Завдання 10
-![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fizi.ua%2Fp-1054343-igrovoy-pk-armagedon-gtx-1070-8gb-6yader-12potokov-16gb-ram-komp&psig=AOvVaw1PmY930xe_Bwings0L7M-n&ust=1610574480365000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPiJidGvl-4CFQAAAAAdAAAAABAD)
+![GitHub Logo](1.jpeg)
