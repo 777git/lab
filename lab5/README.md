@@ -23,9 +23,9 @@
 
 5. Запустив додаток та тест, тести пройшли успішно.
 
-    ![main page](screenshots/Screenshot_123.jpeg)
+    ![main page](123.jpeg)
 
-    ![hits](screenshots/Screenshot_1234.jpec)
+    ![hits](1234.jpec)
 
 
 6. Дві мережі: public - мережа з якої можуть підключатись користувачі та  
