@@ -1,24 +1,54 @@
-============================= test session starts ==============================
-platform linux -- Python 3.7.3, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
-rootdir: /home/user/lab/lab_2
-collected 5 items
 
-tests/tests.py ...F.                                                     [100%]
+# Загальне
+Використовуваний дистрибутив **Linux Debian**
 
-=================================== FAILURES ===================================
-____________________________ TestClass.test_my_fun _____________________________
+# 2
+### Команди для створення віртуального середовища
+```
+python3 -m pip install pipenv;
+python3 -m pipenv --python 3.7;
+	
+```
+---
 
-self = <tests.tests.TestClass testMethod=test_my_fun>
+# 3
+### Команди для завантаження бібліотек
+```
+python3 -m pipenv install requests;
+python3 -m pipenv install ntplib;
+```
+---
 
-    def test_my_fun(self):
->       self.assertEqual(my_good_fun(), "Success")
-E       AssertionError: 'success' != 'Success'
-E       - success
-E       ? ^
-E       + Success
-E       ? ^
+# 5
+### Перевірка роботи програми
+```
+python3 -m pipenv run python app.py
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  06:18:31 PM
+Date is:  18-01-2021
+Доброї ночі
 
-tests/tests.py:29: AssertionError
-=========================== short test summary info ============================
-FAILED tests/tests.py::TestClass::test_my_fun - AssertionError: 'success' != ...
-========================= 1 failed, 4 passed in 0.57s ==========================
+```
+---
+
+# 6
+### Команда для завантаження бібліотеки для тестів
+```
+python3 -m pipenv install pytest;
+```
+---
+
+# 7 
+### Перевірка та запуск тестів
+```
+python3 -m pipenv run pytest tests/tests.py
+========================================================================= test session starts ==========================================================================
+platform linux -- Python 3.7.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/user/lab/lab_2/
+collected 4 items
+
+tests/tests.py ....          
