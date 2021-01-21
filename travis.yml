@@ -1,0 +1,10 @@
+
+language: python
+os: ubuntu
+services:
+        - docker
+python:
+        - "3.8"
+script:
+        - sudo make install test -C $PWD/Lab2/
+        

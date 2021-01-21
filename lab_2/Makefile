@@ -4,22 +4,22 @@ all: install test run deploy
 
 install:
 	@echo "Installing pipenv and dependencies.";
-	python3 -m pip install pipenv;	 	
-	python3 -m pipenv --python 3.7;
+	pip install pipenv;	 	
+	pipenv --python 3.7;
 	
 	
-	python3 -m pipenv install requests;
-	python3 -m pipenv install ntplib;
+	pipenv install requests;
+	pipenv install ntplib;
 
-	python3 -m pipenv install pytest;	
+	pipenv install pytest;	
 
 test:
 	@echo "Start tests.";
-	python3 -m pipenv run pytest ./tests/tests.py >> results.txt;
+	pipenv run python3 -m pytest ./tests/tests.py
 
 run:
 	@echo "Run Python app."
-	python3 -m pipenv run python app.py >> results.txt
+	python3 -m pipenv run python app.py
 
 deploy:
 	@echo "Adding and Committing results.txt to git.";
