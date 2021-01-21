@@ -12,7 +12,7 @@ python3 -m pipenv --python 3.7;
 ---
 
 # 3
-### Команди для завантаження бібліотеки
+### Команди для завантаження бібліотеки.
 ```
 python3 -m pipenv install requests;
 python3 -m pipenv install ntplib;
