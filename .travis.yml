@@ -1,10 +1,11 @@
+--- 
 language: python
 os: ubuntu
-services:
-        - docker
-python:
-        - "3.8"
-script:
-        - sudo make install test -C $PWD/lab_2/
-        - cd lab4
-	- sudo docker-compose build
+python: 
+  - "3.8"
+script: 
+  - "sudo make install test -C $PWD/lab_2/"
+  - "cd lab4"
+  - "sudo docker-compose build"
+services: 
+  - docker
