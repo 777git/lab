@@ -7,5 +7,8 @@ script:
   - "sudo make install test -C $PWD/lab_2/"
   - "cd lab4"
   - "sudo docker-compose build"
+  - "cd .."
+  - "cd lab5"
+  - "sudo docker-compose build"
 services: 
   - docker

@@ -1,5 +1,5 @@
 STATES := app tests
-REPO := mixapaco/lab5
+REPO := 777git/lab5
 
 .PHONY: $(STATES)
 

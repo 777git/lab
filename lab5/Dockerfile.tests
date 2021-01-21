@@ -1,5 +1,5 @@
 FROM python:3.9-alpine
-LABEL author="Mykhailo"
+LABEL author="nazar"
 
 # оновлюємо систему та встановлюємо потрібні пакети
 RUN apk update \
