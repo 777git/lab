@@ -6,7 +6,7 @@
 ### Використавши docker compose збілдив необхідні контейнери
 ![Lab4 travis](lab4.jpeg)
 ### make збілдив все необхідне із лаби 5
-![Lab5 travis](lab6.jpeg)
+![Lab5 travis](lab5.jpeg)
 ### https://www.travis-ci.com/github/777git/lab
 ### lab6 виконана
 ![Travis output](end.jpeg)
